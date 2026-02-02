@@ -70,6 +70,26 @@ Reports are generated in structured Markdown format, stored in the `NewsReport/`
 
 ---
 
+## ✨ Skill: Gemini Watermark Remover
+
+**Gemini Watermark Remover** is a utility that removes the visible Gemini AI watermark from images using reverse alpha blending. Ideal for batch processing or integrating watermark removal into pipelines.
+
+### 🚀 Key Features
+
+- **Precise Removal**:
+  - Pixel-perfect restoration for the bottom-right Gemini watermark.
+  - Uses pre-captured Alpha masks (48px/96px) for high-quality results.
+  
+- **Pure Python**:
+  - Core algorithm only depends on Pillow; lightweight and easy to modify.
+  - Includes a CLI tool for easy integration.
+
+### 📄 Documentation
+
+- For algorithm details and detection rules, see `skills/gemini-watermark-remover/references/algorithm.md`.
+
+---
+
 ## 📂 Project Structure
 
 ```bash

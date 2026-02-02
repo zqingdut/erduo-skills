@@ -70,6 +70,26 @@ graph TD
 
 ---
 
+## ✨ 技能：Gemini 水印移除
+
+**Gemini Watermark Remover** 是一个利用逆向 Alpha 混合技术去除 Gemini 生成图片水印的工具。适用于需要批量处理 Gemini 图片或集成去水印功能的场景。
+
+### 🚀 核心特性
+
+- **精准去水印**:
+  - 针对 Gemini 图片右下角水印进行像素级还原。
+  - 使用预制 Alpha 遮罩（48px/96px）确保高质量去除。
+  
+- **纯 Python 实现**:
+  - 核心算法仅依赖 Pillow，轻量且易于修改。
+  - 提供 CLI 命令行工具，方便集成到工作流中。
+
+### 📄 效果
+
+- 如果你需要调整检测规则，可以参考 `skills/gemini-watermark-remover/references/algorithm.md`。
+
+---
+
 ## 📂 项目结构
 
 ```bash
